@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+h1,
+h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
