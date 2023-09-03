@@ -29,6 +29,7 @@ const mayorMenor = (num1, num2) => {
 
 mayorMenor(13, 3);
 
+
 // 3- Crear una función que reciba un número por parámetro e indique en consola si ese número es múltiplo de 5.
 console.log("EJERCICIO 3");
 
@@ -42,6 +43,7 @@ const multiploCinco = (num) => {
 
 multiploCinco(123);
 
+
 // 4- Crear una función que reciba un número por parámetro e imprima por consola todos los números desde el 0 hasta llegar a ese número.
 console.log("EJERCICIO 4");
 
@@ -52,6 +54,7 @@ const imprimirNumeros = (num) => {
 };
 
 imprimirNumeros(15);
+
 
 // 5 - Crear una función que reciba una palabra y un número por parámetro e imprima por consola esa palabra la cantidad correspondiente al número indicado.
 console.log("EJERCICIO 5");
@@ -75,6 +78,7 @@ const imprimirPalabras = (num, palabra) =>{
 
 imprimirPalabras(5,'hola')
 
+
 // 6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array.
 console.log("EJERCICIO 6");
 
@@ -87,6 +91,7 @@ const imprimirArray = (array) => {
 };
 
 imprimirArray(lista);
+
 
 // 7 - Crear una función que reciba un array con 10 números e imprima por consola todos los valores de ese array, menos el que se encuentre en la 5ta posición del mismo. Ayuda: Recuerden que el primer índice de un array es "0".
 console.log("EJERCICIO 7");
@@ -104,6 +109,7 @@ const imprimirArrayMenos5 = (array) => {
 };
 
 imprimirArrayMenos5(numeros);
+
 
 // 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
 console.log("EJERCICIO 8");
