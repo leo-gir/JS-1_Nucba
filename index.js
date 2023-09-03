@@ -2,15 +2,6 @@
 
 console.log("EJERCICIO 1");
 
-// function parImpar (numero){
-//     if (numero%2===0){
-//         console.log('El número',numero, 'es par');
-//     }
-//     else{
-//         console.log('El número',numero, 'es impar');
-//     }
-// }
-
 const parImpar = (numero) => {
   if (numero % 2 === 0) {
     console.log("El número", numero, "es par");
@@ -25,17 +16,6 @@ let resultadoParImpar = parImpar(12);
 //2- Crear una función que reciba dos números por parámetro e indique en consola que número es mayor, y si ninguno lo es, indicar por consola que son iguales.
 
 console.log("EJERCICIO 2");
-// function mayorMenor(num1, num2){
-//     if (num1>num2){
-//         console.log('El número', num1, 'es mayor')
-//     }
-//     else if (num1<num2){
-//         console.log('El número', num2, 'es mayor')
-//     }
-//     else{
-//         console.log('Los números son iguales')
-//     }
-// }
 
 const mayorMenor = (num1, num2) => {
   if (num1 > num2) {
@@ -74,7 +54,7 @@ const imprimirNumeros = (num) => {
 imprimirNumeros(15);
 
 // 5 - Crear una función que reciba una palabra y un número por parámetro e imprima por consola esa palabra la cantidad correspondiente al número indicado.
-console.log("VER EJERCICIO 5");
+console.log("EJERCICIO 5");
 
 let num=7;
 let palabra='hola';
